@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Document</title>
+
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="menu-nav">
+        <img src="/logo2.png" alt="logo eduardo">
+        <ul class="lista-nav">
+          <li>Inicio</li>
+          <li>Quienes somos</li>
+          <li>Registrate</li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <section>
+     <div id="myModal" class="modal">
+      <div class="cofre">
+        <img id="banderaImg" src="/europa.jpg" alt="Bandera">
+        <p id="nombrePais"></p>
+        <p>Este pais cuenta con una poblacion total de:</p>
+        <p id="pobla"></p>
+        <h2>La capital de este pais es </h2>
+         <p id="capital"></p>
+        <button class=boton onclick="obtenerBandera()">Paises de Europa</button>
+      </div>
+    </div>  
+  </section>
+<script src="./consulta.js" ></script>
+</body>
+</html>

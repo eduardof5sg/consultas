@@ -1,21 +1,29 @@
-Consulta de países en Europa
-Este repositorio contiene un código en HTML, CSS y JavaScript que permite consultar la API https://restcountries.com/v3.1/region/europe. La página web resultante permite a los usuarios obtener información sobre países europeos, mostrando la bandera, el nombre del país y su capital.
+=======================================
 
-Uso
-Clona este repositorio o descárgalo como un archivo ZIP.
-Abre el archivo europa.html en tu navegador web.
-Haz clic en el botón "Obtener País" para cargar la información de un país europeo aleatorio.
-Se mostrará la bandera del país, su nombre y su capital.
+Consumo de API con React
+Este proyecto utiliza la biblioteca React para realizar consultas a la API de TheSportsDB, específicamente a la ruta search_all_teams.php con parámetros para obtener información sobre equipos de fútbol en España. La API devuelve datos como nombres de equipos y las imágenes de sus escudos. La aplicación presenta estos datos de manera paginada, mostrando tres equipos por página.
 
-Tecnologías utilizadas
--HTML
--CSS
--JavaScript
+![api](https://github.com/eduardof5sg/react-api/assets/149663359/cb328c67-8e14-46d0-bf7a-090c558746c2)
 
-Captura de pantalla
+Además, el proyecto incluye dos páginas adicionales:
+
+Página Detallada de Equipo:
+
+Se accede haciendo clic en la imagen del escudo de cada equipo.
+Muestra información más detallada sobre el equipo seleccionado.
+Página de Búsqueda:
+
+Permite a los usuarios realizar búsquedas específicas.
+Proporciona una interfaz para ingresar parámetros de búsqueda y visualizar resultados detallados.
+
+Estructura del Proyecto
+
+![codi](https://github.com/eduardof5sg/react-api/assets/149663359/1718e79d-f3af-415d-b2f9-330542f579c4)
+
 
 Contribuciones
-Las contribuciones son bienvenidas. Siéntete libre de abrir un issue para reportar errores o sugerir mejoras. Si deseas contribuir directamente, crea un pull request detallando los cambios propuestos.
+Si teneis algo que aportar no dudeis en crear un Branch para poder
+mejorar el codigo =)
 
-Atribuciones
-La información sobre los países se obtiene de la API restcountries. Agradecemos su servicio para acceder a estos datos.
+Licencia
+Este proyecto está bajo la Licencia Eduardo Silva

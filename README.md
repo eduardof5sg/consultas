@@ -11,10 +11,20 @@ Página Detallada de Equipo:
 
 Se accede haciendo clic en la imagen del escudo de cada equipo.
 Muestra información más detallada sobre el equipo seleccionado.
+
+![detalle](https://github.com/eduardof5sg/react-api/assets/149663359/21cedce8-d810-4317-b215-e252b1e50120)
+
+
+
+
 Página de Búsqueda:
+
 
 Permite a los usuarios realizar búsquedas específicas.
 Proporciona una interfaz para ingresar parámetros de búsqueda y visualizar resultados detallados.
+
+
+![bus](https://github.com/eduardof5sg/react-api/assets/149663359/8ea51404-494a-4d75-9a0f-3289f8651796)
 
 Estructura del Proyecto
 
